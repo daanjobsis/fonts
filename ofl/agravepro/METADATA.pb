@@ -1,15 +1,19 @@
 name: "Agrave Pro"
 designer: "Daan Jobsis"
 license: "OFL"
-category: "Handwriting"
-date_added: "2026-01-19"
+category: "DISPLAY"
+date_added: "2026-02-01"
+
+source {
+  repository_url: "https://github.com/daanjobsis/agrave-pro/"
+}
 
 subsets: "latin"
-subsets: "latin-ext"
+subsets: "menu"
 
 fonts {
-  name: "Agrave Pro Light"
-  style: "light"
+  name: "Agrave Pro"
+  style: "normal"	
   weight: 300
   filename: "AgravePro-Light.ttf"
   post_script_name: "AgravePro-Light"
@@ -17,8 +21,8 @@ fonts {
 }
 
 fonts {
-  name: "Agrave Pro Regular"
-  style: "regular"
+  name: "Agrave Pro"
+  style: "normal"
   weight: 400
   filename: "AgravePro-Regular.ttf"
   post_script_name: "AgravePro-Regular"
@@ -26,8 +30,8 @@ fonts {
 }
 
 fonts {
-  name: "Agrave Pro Bold"
-  style: "bold"
+  name: "Agrave Pro"
+  style: "normal"
   weight: 700
   filename: "AgravePro-Bold.ttf"
   post_script_name: "AgravePro-Bold"
