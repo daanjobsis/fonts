@@ -2,7 +2,7 @@ name: "Agrave Pro"
 designer: "Daan Jobsis"
 license: "OFL"
 category: "DISPLAY"
-date_added: "2026-02-01"
+date_added: "2026-03-01"
 
 source {
   repository_url: "https://github.com/daanjobsis/agrave-pro/"
@@ -10,6 +10,7 @@ source {
 
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "vietnamese"
 subsets: "menu"
 
 fonts {
